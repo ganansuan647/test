@@ -6,3 +6,8 @@ def bubble_sort(arr):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
+
+# Driver code to test above
+arr = [64, 34, 25, 12, 22, 11, 90]
+print(bubble_sort(arr))
+
